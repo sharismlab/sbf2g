@@ -1,0 +1,46 @@
+body{height:100%;}
+rect.extent{fill:#bbbbbb;}
+circle.node{cursor:hand;cursor:pointer;}
+path.link{fill:none;stroke:#aaaaaa;stroke-width:1.5px;stroke-dasharray:0,2 1;stroke-dasharray:none;}
+marker#rss{fill:#feb24c;}
+path.link.rss{stroke:#feb24c;}
+.legend .rss a{color:#feb24c;}
+marker#sound{fill:#dbdbdb;}
+path.link.sound{stroke:#dbdbdb;}
+.legend .sound a{color:#dbdbdb;}
+marker#human{fill:#000000;}
+path.link.human{stroke:#000000;}
+.legend .human a{color:#000000;}
+marker#text{fill:#dd1c77;}
+path.link.text{stroke:#dd1c77;}
+.legend .text a{color:#dd1c77;}
+marker#api{fill:#f03b20;}
+path.link.api{stroke:#f03b20;}
+.legend .api a{color:#f03b20;}
+marker#facebook{fill:#2c7fb8;}
+path.link.facebook{stroke:#2c7fb8;}
+.legend .facebook a{color:#2c7fb8;}
+marker#email{fill:#22cc55;}
+path.link.email{stroke:#22cc55;}
+.legend .email a{color:#22cc55;}
+marker#google{fill:#990033;}
+path.link.google{stroke:#990033;}
+.legend .google a{color:#990033;}
+marker#im{fill:#31a354;}
+path.link.im{stroke:#31a354;}
+.legend .im a{color:#31a354;}
+marker#sms{fill:#addd8e;}
+path.link.sms{stroke:#addd8e;}
+.legend .sms a{color:#addd8e;}
+marker#microsoft{fill:#000066;}
+path.link.microsoft{stroke:#000066;}
+.legend .microsoft a{color:#000066;}
+marker#dianlu{fill:#756bb1;}
+path.link.dianlu{stroke:#756bb1;}
+.legend .dianlu a{color:#756bb1;}
+marker#yahoo{fill:#dd1c77;}
+path.link.yahoo{stroke:#dd1c77;}
+.legend .yahoo a{color:#dd1c77;}
+marker#undefined{fill:#aaaaaa;}
+path.link.undefined{stroke:#aaaaaa;stroke-dasharray:0,2 1;}
+.legend .undefined a{color:#aaaaaa;}

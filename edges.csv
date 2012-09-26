@@ -1,0 +1,8 @@
+Source,Target,Source-Name,Target-Name,LiShu,Category,Weight,Date
+3,1,Test_API_In,Test,Test,GD,1.1,2012-09-20
+2,4,Test2,Test2_API_Out,Test2,GD,1.1,2012-09-20
+4,3,Test2_API_Out,Test_API_In,api,LJ,1,2012-09-20
+7,5,Test5_API_In,Test5,Test5,GD,1.1,2012-09-20
+6,9,5555,5555_API_Out,5555,GD,1.1,2012-09-20
+9,7,5555_API_Out,Test5_API_In,api,LJ,1,2012-09-20
+5,8,Test5,Test5_RSS_Out,Test5,GD,1.1,2012-09-20

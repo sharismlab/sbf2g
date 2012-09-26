@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<title>Social Pipeline</title>
+	<!--    <script type="text/javascript" src="js/processing.js"></script> -->
+    <script type="text/javascript" src="../lib/jquery.js" ></script>
+    <script type="text/javascript" src="../lib/jquery.xml2json.js" /></script>
+    <script type="text/javascript" src="../lib/d3.v2.js"></script>
+    <script type="text/javascript" src="../js/force.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/force.css">
+  </head>
+  <body>
+  	<div class="container-fluid">
+  		<div class="row-fluid">
+		    <div id="main" role="main" class="span10">
+		      	<!--Body content-->
+				<div id="viz"></div>
+		    </div>
+		    <div class="span2" id="sidebar">
+	  			<h2>Social Pipeline</h2>
+				<p>
+					<i class="icon-th"></i>
+					<small>Menu below show connection types</small>
+				</p>
+				<p>
+					<i class="icon-eye-open"></i>
+					<small>Point mouse to see relationships</small>
+				</p>
+				<p>
+					<i class="icon-move"></i>
+					<small>Select a node to move graph</small>
+				</p>
+				<p>
+					<i class="icon-zoom-in"></i>
+					<small>Zoom with mouse scroll</small>
+				</p>
+				<p>
+					<i class="icon-resize-full"></i>
+					<small>Bigger nodes have more incoming connections</small>
+				</p>
+
+		  			
+	  			<ul class="legend nav nav-pills">
+	  				<li><a class="allLinks" href="#">SHOW ALL</a></li>
+	  				<li class="divider"></li>
+	  				<li class="sound"><a href="#">Sound</a></li>
+	  				<li class="rss"><a href="#">Rss</a></li>
+	  				<li class="text"><a href="#">Text</a></li>
+	  				<li class="human"><a href="#">Human</a></li>
+	  				<li class="api"><a href="#">Api</a></li>
+	  				<li class="facebook"><a href="#">Facebook</a></li>
+	  				<li class="email"><a href="#">Email</a></li>
+	  				<li class="google"><a href="#">Google</a></li>
+	  				<li class="im"><a href="#">Im</a></li>
+	  				<li class="sms"><a href="#">Sms</a></li>
+	  				<li class="microsoft"><a href="#">Microsoft</a></li>
+	  				<li class="dianlu"><a href="#">Dianlu</a></li>
+	  				<li class="yahoo"><a href="#">Yahoo</a></li>
+	  				<li class="undefined"><a href="#">Undefined</a></li>
+	  			</ul>
+		    </div>
+		</div>
+	</div>
+	<!--
+	<script type="text/processing" data-processing-target="myCanvas">
+		var pimages = [];
+
+		// if(cleanData.nodes !=0) console.log("data loaded");
+
+		void setup()
+		{
+		  size(200,200);
+		  background(125);
+		  fill(255);
+		  noLoop();
+		  
+		}
+
+		void loadImages(data){
+			// console.log("data loaded");
+			// console.log(data);
+			for (var i = 0; i < data.nodes.length; i++) {
+				
+				PImage pimage = new PImage(data.nodes[i].image.data);
+				pimages.push(pimage);
+			};
+			// console.log(pimages);
+		}
+
+		void draw(){  
+
+			for (var i = 0; i < pimages.length; i++) {
+				console.log(pimages[i]);
+				image(pimages[i], 0, 0);
+			};
+
+		}
+    </script>
+	<canvas id="myCanvas" style="height:700px;width:1000px;">
+		Your browser doesnt support html5, you should update it !
+	</canvas>
+	-->
+  </body>
+</html>	
